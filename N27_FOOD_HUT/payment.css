@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+    
+    }
+    
+    .payment-form {
+    background-color: #807c79;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left:40%;
+    color: black;
+    
+    
+    
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+    
+    }
+    
+    input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    }
+    
+    .card-type-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    }
+    
+    .card-type-icons img {
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+    }
+    
+    .card-fields {
+    display: none;
+    }
+    
+    input[type="submit"] {
+    background-color: #e8491d;
+    color: #fff;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #d9c94c;
+    }
